@@ -1,0 +1,111 @@
+/* only css */
+body{
+  padding-top: 8%;
+  font-family: 'Outfit', sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+.card{
+  margin: auto;
+}
+p{
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+span{
+  color: hsl(215, 51%, 70%);
+
+}
+.span{
+  color: hsl(215, 51%, 70%);
+  margin-left: 3%;
+}
+
+.jule{
+ color:hsl(0, 0%, 100%);
+}
+.spam{
+  color: hsl(0, 0, 100%);
+}
+.text-corner{
+
+  min-height: 0px;
+  min-width: 0;
+}
+.hr{
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: -9%;
+
+}
+.card-title{
+  color:hsl(0, 0%, 100%);
+}
+
+h5:hover {
+    color:  hsl(178, 100%, 50%);
+}
+span.jule:hover {
+  color:  hsl(178, 100%, 50%);
+
+}
+.card-text{
+  color: hsl(215, 51%, 70%);
+}
+.avatar{
+  height: 40px;
+  width: 40px;
+  border:1px solid white;
+  border-radius: 100%;
+}
+.ty{
+  height: 250px;
+  width: 260px;
+  position: relative;
+  padding: 5% 0 5% 7%;
+  border-radius: 20%;
+}
+.overlay {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  right: 0;
+  bottom: 0;
+  height: 225px;
+  width: 243px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  hsl(178, 100%, 50%);;
+  border-radius: 20%;
+}
+
+div.overlay:hover{
+  opacity: .5;
+}
+.daysleft{
+  padding: 2%;
+  font-size: 11px;
+  padding-right:7%;
+}
+.daysleft span{
+  margin-left: 5px:
+  padding:4%;
+}
+.green{
+  color:hsl(178, 100%, 50%);
+  margin-right: 20%;
+  margin-left: 3%;
+}
+.attribution{
+  position: relative;
+  left: -30px;
+}
+@media screen (min-height:0 ) and (max-height: 375px) {
+   .text-corner{
+     left: 15%;
+     position: absolute;
+   }
+
+}
